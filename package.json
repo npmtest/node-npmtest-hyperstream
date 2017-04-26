@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [hyperstream (v1.2.2)](https://github.com/substack/hyperstream)  [![npm package](https://img.shields.io/npm/v/npmtest-hyperstream.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-hyperstream) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-hyperstream.svg)](https://travis-ci.org/npmtest/node-npmtest-hyperstream)",
+    "description": "#### basic test coverage for  [hyperstream (v1.2.2)](https://github.com/substack/hyperstream)  [![npm package](https://img.shields.io/npm/v/npmtest-hyperstream.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-hyperstream) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-hyperstream.svg)](https://travis-ci.org/npmtest/node-npmtest-hyperstream)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "hyperstream": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.26"
 }
